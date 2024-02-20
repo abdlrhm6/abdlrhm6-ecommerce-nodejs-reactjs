@@ -1,0 +1,1 @@
+export const token = document.cookie ? document.cookie.split("; ").filter(t =>t.startsWith("token="))[0].split("=")[1] : null
